@@ -4,3 +4,10 @@
 .nav li:last-child{
     margin-top: 50px;
 }
+.nav a{
+    color: darkorange;
+}
+
+.nav a.active{
+    color: darkred;
+}
