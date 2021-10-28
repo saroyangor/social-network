@@ -1,0 +1,6 @@
+.nav{
+    grid-area: nav;
+}
+.nav li:last-child{
+    margin-top: 50px;
+}
