@@ -1,5 +1,5 @@
 import React from 'react';
-import cl from "./profile.module.css";
+import cl from "./Profile.module.css";
 
 const Profile = () => {
     return (
