@@ -1,11 +1,15 @@
 import React from "react";
-import './App.css';
+import cl from "./App.module.css";
 import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import Profile from "./components/profile/Profile";
 
 function App() {
   return (
-    <div className="App">
+    <div className={cl.appWrapper}>
       <Header/>
+      <Nav/>
+      <Profile/>
     </div>
   );
 }

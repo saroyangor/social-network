@@ -1,0 +1,6 @@
+.headerImg{
+    width: 60px
+}
+.header{
+    grid-area: header;
+}
