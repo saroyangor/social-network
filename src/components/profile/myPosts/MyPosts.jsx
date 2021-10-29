@@ -1,7 +1,8 @@
 import React from 'react';
-import Post from "../../Post/Post";
+import Post from "./Post/Post";
 
-const MyPosts = () => {
+const MyPosts = (props) => {
+
     return (
         <div>
             My posts
@@ -10,8 +11,7 @@ const MyPosts = () => {
                 <button>Add post</button>
             </div>
             <div>
-                <Post message="Hi, how are you?"/>
-                <Post message="It's my first post"/>
+                {props.posts.map(p=><Post key={p.id} post={p.post}/>)}
             </div>
         </div>
     );
