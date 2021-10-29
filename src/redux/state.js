@@ -21,4 +21,12 @@ const state = {
 
 }
 
+export const addPost = (postMessage) => {
+    let newPost = {
+        id: 5,
+        post: postMessage
+    }
+    state.profilePage.posts.push(newPost)
+}
+
 export default state

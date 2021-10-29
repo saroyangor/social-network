@@ -18,7 +18,11 @@ function App(props) {
                 <Nav/>
                 <div className={cl.main}>
                     <Route path="/dialogs" render={() => <Dialogs dialogsState={props.state.dialogsPage}/>}/>
-                    <Route path="/profile" render={() => <Profile profileState={props.state.profilePage}/>}/>
+                    <Route
+                        path="/profile"
+                        render={() => <Profile
+                        addPost={props.addPost}
+                        profileState={props.state.profilePage}/>}/>
                     <Route path="/news" component={News}/>
                     <Route path="/music" component={Music}/>
                     <Route path="/settings" component={Settings}/>
