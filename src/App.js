@@ -16,14 +16,18 @@ function App(props) {
             <Header/>
             <Nav/>
             <div className={cl.main}>
-                <Route path="/dialogs" render={() => <Dialogs dialogsState={props.state.dialogsPage}/>}/>
+                <Route path="/dialogs" render={() =>
+                    <Dialogs
+                        dialogsState={props.state.dialogsPage}
+                        dispatch={props.dispatch}
+                    />}/>
                 <Route
                     path="/profile"
-                    render={() => <Profile
-                        profileState={props.state.profilePage}
-                        addPost={props.addPost}
-                        changeNewPostText={props.changeNewPostText}
-                    />}/>
+                    render={() =>
+                        <Profile
+                            profileState={props.state.profilePage}
+                            dispatch={props.dispatch}
+                        />}/>
                 <Route path="/news" component={News}/>
                 <Route path="/music" component={Music}/>
                 <Route path="/settings" component={Settings}/>

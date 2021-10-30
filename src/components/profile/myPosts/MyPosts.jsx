@@ -1,16 +1,17 @@
 import React from 'react';
 import Post from "./Post/Post";
+import {addPostAC, changeNewPostTextAC} from "../../../redux/profileReducer";
 
 const MyPosts = (props) => {
 
     const newPostElement = React.createRef()
 
     function localeAddPost(){
-        props.addPost()
+        props.dispatch(addPostAC())
     }
 
     function onPostChange(){
-        props.changeNewPostText(newPostElement.current.value)
+        props.dispatch(changeNewPostTextAC(newPostElement.current.value))
     }
 
     return (
