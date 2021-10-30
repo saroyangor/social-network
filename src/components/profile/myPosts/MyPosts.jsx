@@ -6,14 +6,22 @@ const MyPosts = (props) => {
     const newPostElement = React.createRef()
 
     function localeAddPost(){
-        props.addPost(newPostElement)
+        props.addPost()
+    }
+
+    function onPostChange(){
+        props.changeNewPostText(newPostElement.current.value)
     }
 
     return (
         <div>
             My posts
             <div>
-                <textarea ref={newPostElement}/>
+                <textarea
+                    ref={newPostElement}
+                    value={props.newPostText}
+                    onChange={onPostChange}
+                />
                 <button onClick={localeAddPost}>Add post</button>
             </div>
             <div>
