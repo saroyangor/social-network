@@ -13,9 +13,9 @@ export const fetchProfiles = createAsyncThunk<Profile[], void, { rejectValue: st
   'profiles/fetchProfiles',
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get('http://ec2-3-120-248-65.eu-central-1.compute.amazonaws.com/api-docs/#/User%20Profiles/get_userProfiles', {
+      const response = await axios.get('http://ec2-3-120-248-65.eu-central-1.compute.amazonaws.com/user_profiles', {
         headers: {
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1NiwiZW1haWwiOiJ1c2VyMTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidXNlcjEyMyIsInJvbGUiOjEsImlhdCI6MTcxNzAwMTU2MCwiZXhwIjoxNzE3MDA1MTYwfQ.E1ujTILYmK1nptsLWd7V3b6Upmz90K7mKo13TgCO5wU',
+          Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1NiwiZW1haWwiOiJ1c2VyMTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidXNlcjEyMyIsInJvbGUiOjEsImlhdCI6MTcxNzI2MzYzNywiZXhwIjoxNzE3MjY3MjM3fQ.lCfS67kb01NbCe9YD_-LEr_f0VxFqpW5UTFU2PnOu4I',
         },
       });
       console.log(response.data);
