@@ -11,3 +11,19 @@ export type TErrorMessage = {
 export type TVerificationCode = {
     code: string
 }
+
+export interface Profile {
+    id: string;
+    username: string;
+    email: string;
+  }
+
+export interface ProfilesState {
+    profiles: Profile[];
+    loading: boolean;
+    error: string | null;
+  }
+
+export interface BackendError {
+    message: string;
+  }
