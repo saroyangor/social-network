@@ -67,7 +67,7 @@ module.exports = {
     "import/prefer-default-export": 0,
     "import/extensions": 0,
     "i18next/no-literal-string": [
-      1,
+      0,
       {
         markupOnly: true,
         ignoreAttribute: [

@@ -1,0 +1,76 @@
+.profiles-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profiles-title {
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 167%;
+    letter-spacing: -0.01em;
+    color: #4e3f6f;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1280px;
+    justify-content: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 270px;
+    min-height: 415px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.profile-card-content {
+    padding: 16px;
+    color: #4e3f6f;
+}
+
+.profile-username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.profile-email {
+    color: gray;
+    margin-bottom: 16px;
+}
+
+.profile-button {
+    padding: 8px 16px;
+    background-color: #615dfa;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+    transition: background-color 0.3s;
+}
+
+.profile-button:hover {
+    background-color: #4e3f6f;
+}

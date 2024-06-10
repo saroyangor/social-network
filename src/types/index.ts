@@ -16,14 +16,16 @@ export interface Profile {
     id: string;
     username: string;
     email: string;
-  }
+    image: string
+    info: string
+}
 
 export interface ProfilesState {
     profiles: Profile[];
     loading: boolean;
     error: string | null;
-  }
+}
 
 export interface BackendError {
     message: string;
-  }
+}
