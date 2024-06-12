@@ -21,7 +21,7 @@ export const Error: React.FC<ErrorProps> = ({ message }) => (
     <Typography variant="h6" color="textSecondary" align="center" gutterBottom sx={{ mb: 2 }}>
       {message}
     </Typography>
-    <Button variant="contained" color="info" onClick={() => window.location.reload()}>
+    <Button variant="contained" color="primary" onClick={() => window.location.reload()}>
       Refresh Page
     </Button>
   </Box>
