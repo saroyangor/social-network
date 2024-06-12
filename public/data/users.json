@@ -4,83 +4,83 @@
         "username": "robert_downey",
         "email": "robert@example.com",
         "image": "../src/assets/images/RobertDowney.webp",
-        "info": "Known for his iconic role as Tony Stark/Iron Man in the Marvel Cinematic Universe."
+        "info": "info_robert_downey"
     },
     {
         "id": "2",
         "username": "meryl_streep",
         "email": "meryl@example.com",
         "image": "../src/assets/images/MerylStreep.webp",
-        "info": "Renowned for her versatile acting abilities and numerous Academy Award nominations."
+        "info": "info_meryl_streep"
     },
     {
         "id": "3",
         "username": "leo_dicaprio",
         "email": "leo@example.com",
         "image": "../src/assets/images/LeoDicaprio.webp",
-        "info": "An Oscar-winning actor and environmental activist, known for roles in Titanic, Inception, and The Revenant."
+        "info": "info_leo_dicaprio"
     },
     {
         "id": "4",
         "username": "scarlett_johansson",
         "email": "scarlett@example.com",
         "image": "../src/assets/images/Scarlett.webp",
-        "info": "One of the highest-paid actresses in the world, recognized for her roles in Avengers, Lost in Translation, and Marriage Story."
+        "info": "info_scarlett_johansson"
     },
     {
         "id": "5",
         "username": "brad_pitt",
         "email": "brad@example.com",
         "image": "../src/assets/images/BradPitt.webp",
-        "info": "A versatile actor known for his roles in Fight Club, Ocean's Eleven, and Once Upon a Time in Hollywood, and his humanitarian work."
+        "info": "info_brad_pitt"
     },
     {
         "id": "6",
         "username": "angelina_jolie",
         "email": "angelina@example.com",
         "image": "../src/assets/images/Angelina.webp",
-        "info": "Actress, filmmaker, and humanitarian, known for her roles in Lara Croft: Tomb Raider, Maleficent, and Mr. & Mrs. Smith."
+        "info": "info_angelina_jolie"
     },
     {
         "id": "7",
         "username": "will_smith",
         "email": "will@example.com",
         "image": "../src/assets/images/WillSmith.webp",
-        "info": "Multi-talented actor, rapper, and producer, famous for roles in The Fresh Prince of Bel-Air, Men in Black, and The Pursuit of Happyness."
+        "info": "info_will_smith"
     },
     {
         "id": "8",
         "username": "jennifer_lawrence",
         "email": "jennifer@example.com",
         "image": "../src/assets/images/JenniferLW.webp",
-        "info": "Academy Award-winning actress known for her roles in The Hunger Games series, Silver Linings Playbook, and American Hustle."
+        "info": "info_jennifer_lawrence"
     },
     {
         "id": "9",
         "username": "jason_statham",
         "email": "statham@example.com",
         "image": "../src/assets/images/JasonStatham.webp",
-        "info": "British actor and former diver known for his roles in the Transporter series, The Expendables, and Snatch."
+        "info": "info_jason_statham"
     },
     {
         "id": "10",
         "username": "emma_stone",
         "email": "emma@example.com",
         "image": "../src/assets/images/EmmaStone.webp",
-        "info": "Academy Award-winning actress known for her roles in La La Land, The Help, and Easy A."
+        "info": "info_emma_stone"
     },
     {
         "id": "11",
         "username": "dwayne_johnson",
         "email": "dwayne@example.com",
         "image": "../src/assets/images/DwayneJohnson.webp",
-        "info": "Former professional wrestler turned actor, known as 'The Rock,' starred in numerous blockbuster films like Jumanji, Fast & Furious, and Moana."
+        "info": "info_dwayne_johnson"
     },
     {
         "id": "12",
         "username": "megan_fox",
         "email": "fox@example.com",
         "image": "../src/assets/images/MeganFox.webp",
-        "info": "Actress and model known for her roles in the Transformers series, Jennifer's Body, and Teenage Mutant Ninja Turtles."
+        "info": "info_megan_fox"
     }
 ]
