@@ -13,7 +13,7 @@
     font-size: 36px;
     line-height: 167%;
     letter-spacing: -0.01em;
-    color: #4e3f6f;
+    color: rgb(78, 63, 111);
 }
 
 .profiles {
@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(221, 221, 221);
     overflow: hidden;
     padding-bottom: 10px;
     width: 270px;
@@ -47,7 +47,7 @@
 
 .profile-card-content {
     padding: 16px;
-    color: #4e3f6f;
+    color: rgb(78, 63, 111);
 }
 
 .profile-username {
@@ -57,14 +57,14 @@
 }
 
 .profile-email {
-    color: gray;
+    color: rgb(128, 128, 128);
     margin-bottom: 16px;
 }
 
 .profile-button {
     padding: 8px 16px;
-    background-color: #615dfa;
-    color: white;
+    background-color: rgb(97, 93, 250);
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     border-radius: 0 0 20px 20px;
@@ -72,5 +72,5 @@
 }
 
 .profile-button:hover {
-    background-color: #4e3f6f;
+    background-color: rgb(78, 63, 111);
 }
